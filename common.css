@@ -1,0 +1,66 @@
+.body{
+  margin: 0px;
+}
+
+
+
+/*headerクラス*/
+
+
+.header-container{
+  background-color: #222;
+  height: 100px;
+  display: flex;
+}
+
+.header-logo{
+  font-size: 50px;
+  float: left;
+  color: #fff;
+  line-height: 100px;
+}
+
+.header-description{
+  float: left;
+  font-size: 24px;
+  margin: 0 40px;
+  line-height: 100px;
+  color: #fff;
+}
+
+/*mainクラス*/
+
+
+.result-list{
+  height: 300px;
+  display: flex;
+}
+
+.result{
+  flex: auto;
+}
+
+.logo{
+  width: 200px;
+  height: 200px;
+}
+
+
+
+/*footerクラス*/
+
+footer{
+  height: 150px;
+  background-color: #eee;
+}
+
+.footer-logo{
+  font-size: 50px;
+  float: right;
+}
+
+
+.user-name p{
+  font-size: 80px;
+  margin: 0px;
+}
