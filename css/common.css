@@ -1,0 +1,97 @@
+html, body {
+  overflow-x: hidden;
+  font-family: serif;
+}
+
+.featurette-divider {
+  margin: 5rem 0;
+}
+
+@media (max-width: 1200px) {
+  .featurette-divider {
+    margin: 4.5rem 0;
+  }
+  .fs-4 {
+    font-size: 1.35rem !important;
+  }
+  .fs-5 {
+    font-size: 1rem !important;
+  }
+  .fs-6 {
+    font-size: 0.9rem !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .featurette-divider {
+    margin: 4rem 0;
+  }
+  .fs-4 {
+    font-size: 1.25rem !important;
+  }
+  .fs-5 {
+    font-size: 0.9rem !important;
+  }
+  .fs-6 {
+    font-size: 0.8rem !important;
+  }
+}
+
+.fs-7 {
+  font-size: 0.9rem;
+}
+
+.fs-8 {
+  font-size: 0.8rem;
+}
+
+.fs-9 {
+  font-size: 0.7rem;
+}
+
+.logo {
+  width: 210px;
+  height: 32px;
+}
+
+.bg-gray-gradient {
+  background: linear-gradient(to right, gray, lightgray); 
+}
+
+.bg-gray-radial {
+  background: radial-gradient(white, aliceblue);
+}
+
+.breadcrumb-section {
+  margin-top: 60px !important;
+}
+
+/* navbar */
+.navbar-collapse-show {
+  background-color: #f8f9fa;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.navbar-collapse-show .nav-link:hover,
+.navbar-collapse-show .nav-link.active {
+  color: darkgreen;
+  font-weight: bold;
+}
+
+/* card link */
+a.card:hover {
+  transition: 0.5s;
+}
+
+a.card:hover {
+  opacity: 0.4;
+}

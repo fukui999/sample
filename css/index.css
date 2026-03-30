@@ -1,0 +1,35 @@
+
+.top-title-1 {
+  top: 40%;
+  left: 30%;
+}
+
+.top-title-2 {
+  top: 80%;
+  left: 50%;
+  width: 60%;
+  background: linear-gradient(to right, lightslategray, lightgray); 
+}
+
+@media (max-width: 768px) {
+  .top-title-2 {
+    top: 80%;
+    left: 50%;
+    width: 95%;
+    background: linear-gradient(to right, lightslategray, lightgray); 
+  }
+}
+
+/* animation class */
+.fade-in {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 1.5s;
+  transform: translateY(150px);
+}
+
+.fade-in.is-active {
+  opacity: 1;
+  visibility: visible;
+  transform: translateY(0);
+}

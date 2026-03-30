@@ -1,0 +1,4 @@
+# 301リダイレクト（恒久的な転送）
+RewriteEngine on
+RewriteRule ^annai.html$ /profile.html [R=301,L]
+RewriteRule ^gaiyou.html$ /service.html [R=301,L]
